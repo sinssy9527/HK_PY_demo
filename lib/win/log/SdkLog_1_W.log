@@ -1,0 +1,37 @@
+[2023-10-10 16:42:02.721][INF] The COM:HCCoreBase ver is 6.1.4.15, 2020_03_05. Async:1.
+[2023-10-10 16:42:02.721][INF] The COM:Core ver is 6.1.9.48, 2023_04_10. Async:1.
+[2023-10-10 16:42:02.721][INF] This HCNetSDK ver is 6.1.9.48 Ver 2023_04_10.
+[2023-10-10 16:42:04.147][INF] Login dev 192.168.254.14:8000.
+[2023-10-10 16:42:04.147][INF] dwTotalNum[2048]
+[2023-10-10 16:42:04.149][INF] Private connect 192.168.254.14:8000 sock=2012 this=0xad931704 cmd=0x10000 port=56838
+[2023-10-10 16:42:04.149][INF] LogonDev1 in[192.168.254.14:8000]
+[2023-10-10 16:42:04.150][DBG] CCoreGlobalCtrlBase::LoadDSo, HPR_LoadDSo Succ, Path[D:/learning/HK_PlayDemo/lib/win/libcrypto-1_1-x64.dll], hHandleRet[-1746075648]
+[2023-10-10 16:42:04.150][DBG] Load [libcrypto-1_1-x64.dll] SUCC, Real Path[D:\learning\HK_PlayDemo\lib\win\libcrypto-1_1-x64.dll]
+[2023-10-10 16:42:04.150][DBG] CCoreGlobalCtrlBase::LoadDSo, HPR_LoadDSo Succ, Path[D:/learning/HK_PlayDemo/lib/win/libssl-1_1-x64.dll], hHandleRet[-927137792]
+[2023-10-10 16:42:04.150][DBG] Load [libssl-1_1-x64.dll] SUCC, Real Path[D:\learning\HK_PlayDemo\lib\win\libssl-1_1-x64.dll]
+[2023-10-10 16:42:04.150][INF] SSLTRANSAPI::IsAllAPILoaded, SSL_library_init Unload
+[2023-10-10 16:42:04.150][INF] OpenSSL, Not All Function Loaded!
+[2023-10-10 16:42:04.150][INF] SSLTRANSAPI::PrintVersion, OpenSSL version info [OpenSSL 1.1.1l  24 Aug 2021]
+[2023-10-10 16:42:04.150][INF] CSSLTrans::SSLCtxInit, dwSSLVersion[6], m_fnTLSServerMethod
+[2023-10-10 16:42:04.153][ERR] CSSLTrans::SSLTrans_CTX_Load_CA, invalid path[D:/learning/HK_PlayDemo/lib/win/cert/\]
+[2023-10-10 16:42:04.608][DBG] CComBase::Load, Load szDllPath[D:/learning/HK_PlayDemo/lib/win/HCNetSDKCom/HCPreview.dll] SUCC
+[2023-10-10 16:42:04.609][INF] AbilityAnalyze---Init-- start
+[2023-10-10 16:42:04.644][INF] The COM:Preview ver is 6.1.9.48, 2023_04_10.
+[2023-10-10 16:42:04.644][INF] CCoreGlobalCtrl::LoadDSo, enumDllType[0], cTempPath[D:/learning/HK_PlayDemo/lib/win/]
+[2023-10-10 16:42:04.644][DBG] CCoreGlobalCtrl::LoadDSo, HPR_LoadDSo, hHandleRet[-1418002432], enumDllType[0], Path[PlayCtrl.dll], syserror[127]
+[2023-10-10 16:42:04.644][DBG] ID-IP-CHAN[0-192.168.254.14-1] [CPreviewPlayer::CreatePlayer] create player success, version is[v7.4.0.40]
+[2023-10-10 16:42:04.646][INF] Private connect 192.168.254.14:8000 sock=2252 this=0xad931704 cmd=0x30000 port=56839
+[2023-10-10 16:42:04.659][INF] ID-IP-CHAN[0-192.168.254.14-1] [CGetTCPStream::Start] Stream Head Data Callback Start
+[2023-10-10 16:42:04.659][INF] ID-IP-CHAN[0-192.168.254.14-1] [CGetTCPStream::Start] Stream Head Data Callback End
+[2023-10-10 16:42:04.662][ERR] GetOverlayFontPath Failed
+[2023-10-10 16:42:04.667][INF] ID-IP-CHAN[0-192.168.254.14-1] [CPreviewPlayer::OpenPlayer] open player[ad95e7c4] success
+[2023-10-10 16:42:04.667][INF] CCoreGlobalCtrl::LoadDSo, enumDllType[2], cTempPath[D:/learning/HK_PlayDemo/lib/win/HCNetSDKCom/]
+[2023-10-10 16:42:04.669][DBG] CCoreGlobalCtrl::LoadDSo, HPR_LoadDSo, hHandleRet[-1303576576], enumDllType[2], Path[SystemTransform.dll], syserror[0]
+[2023-10-10 16:42:04.669][INF] CStreamConvert::LoadConvertLib Load Succ, m_iInitCount = 1
+[2023-10-10 16:42:13.424][INF] Private connect 192.168.254.14:8000 sock=4036 this=0xad931e70 cmd=0x30200 port=56847
+[2023-10-10 16:42:13.533][INF] Private connect 192.168.254.14:8000 sock=4040 this=0xad931e70 cmd=0x30200 port=56848
+[2023-10-10 16:42:17.033][DBG] CStreamConvert::UnloadConvertLib, m_iInitCount = 0
+[2023-10-10 16:42:17.088][INF] COM_Logout[0][0]
+[2023-10-10 16:42:17.088][DBG] CUserMgr::UnRegisterHeartProxy[0]
+[2023-10-10 16:42:17.100][INF] Private connect 192.168.254.14:8000 sock=1748 this=0xad931704 cmd=0x10100 port=56849
+[2023-10-10 16:42:17.105][INF] CTransUnitMgr::UnloadTransUnitLib

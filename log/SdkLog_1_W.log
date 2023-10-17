@@ -1,0 +1,12 @@
+[2023-10-16 14:37:02.805][DBG] CCoreGlobalCtrlBase::LoadDSo, HPR_LoadDSo Succ, Path[D:/sp/海康sdk_tool/lib/win/libcrypto-1_1-x64.dll], hHandleRet[471793664]
+[2023-10-16 14:37:02.805][DBG] Load [libcrypto-1_1-x64.dll] SUCC, Real Path[D:\sp\海康sdk_tool\lib\win\libcrypto-1_1-x64.dll]
+[2023-10-16 14:37:02.848][DBG] CCoreGlobalCtrlBase::LoadDSo, HPR_LoadDSo Succ, Path[D:/sp/海康sdk_tool/lib/win/libssl-1_1-x64.dll], hHandleRet[2131034112]
+[2023-10-16 14:37:02.849][DBG] Load [libssl-1_1-x64.dll] SUCC, Real Path[D:\sp\海康sdk_tool\lib\win\libssl-1_1-x64.dll]
+[2023-10-16 14:37:02.871][ERR] CSSLTrans::SSLTrans_CTX_Load_CA, invalid path[D:/sp/海康sdk_tool/lib/win/cert/\]
+[2023-10-16 14:37:03.684][DBG] CComBase::Load, Load szDllPath[D:/sp/海康sdk_tool/lib/win/HCNetSDKCom/HCPreview.dll] SUCC
+[2023-10-16 14:37:03.722][DBG] CCoreGlobalCtrl::LoadDSo, HPR_LoadDSo, hHandleRet[-599195648], enumDllType[0], Path[PlayCtrl.dll], syserror[127]
+[2023-10-16 14:37:03.722][DBG] ID-IP-CHAN[0-192.168.254.14-1] [CPreviewPlayer::CreatePlayer] create player success, version is[v7.4.0.40]
+[2023-10-16 14:37:03.742][ERR] GetOverlayFontPath Failed
+[2023-10-16 14:37:03.855][DBG] CCoreGlobalCtrl::LoadDSo, HPR_LoadDSo, hHandleRet[-2125922304], enumDllType[2], Path[SystemTransform.dll], syserror[0]
+[2023-10-16 14:56:25.624][DBG] CStreamConvert::UnloadConvertLib, m_iInitCount = 0
+[2023-10-16 14:56:26.262][DBG] CUserMgr::UnRegisterHeartProxy[0]
